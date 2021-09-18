@@ -1,4 +1,4 @@
-package ru.gb.gb_popular_libs.lession1
+package ru.gb.gb_popular_libs.lession1.model
 
 class CountersModel {
 
@@ -13,7 +13,7 @@ class CountersModel {
         return getCurrent(index)
     }
 
-    fun set(index: Int, value: Int){
+    fun set(index: Int, value: Int) {
         counters[index] = value
     }
 }
